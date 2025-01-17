@@ -1,73 +1,26 @@
-# Snake Game
 
-A classic **Snake** game implemented in Python using the `pygame` library. Control the snake, eat food to grow, and try to achieve the highest score without crashing into walls or yourself!
+# Flappy Bird Game with Negative Bird Effect
 
-## Features
-- **Dynamic Speed**: The game becomes faster as your score increases.
-- **Scoring System**: Displays the current score at the top-left corner of the screen.
-- **Restart Option**: Easily restart the game by pressing `R` after a game over.
-- **Customizable**: Modify snake speed, colors, or grid size to make the game your own.
+Welcome to the Flappy Bird game with a unique twist! This game is inspired by the classic Flappy Bird, but with a creative and artistic change to the bird and gameplay experience.
 
----
+### Why Play This Game?
 
-## Requirements
-- Python 3.7+
-- `pygame` library
+1. **Unique Bird Design**: The bird in this version is not just any bird—it's a **realistic, inverted bird** that stands out with its striking negative color effect. The bird's appearance is a new and artistic twist that makes it visually different from the traditional Flappy Bird game, giving a fresh experience to players.
+  
+2. **Challenging Obstacles**: The game features **red obstacles (pipes)** with a larger gap between them, which makes the game more fun and accessible. The challenge lies in navigating the bird through these pipes while avoiding collisions.
 
-### Install pygame
-Use pip to install `pygame`:
-```bash
-pip install pygame
-```
+3. **Classic Flappy Bird Gameplay**: The core of the game is still based on the beloved **flap and fall** mechanic, where you control the bird's movement by pressing the space bar. The goal is to keep the bird flying through the gaps and rack up as many points as you can.
 
----
+4. **Customization**: With this version, you can also experiment with different bird designs, colors, and other modifications, allowing you to create your own personalized Flappy Bird game.
 
-## How to Run
-1. Save the main game file as `snake_game.py`.
-2. Open a terminal and navigate to the directory containing the file.
-3. Run the game using:
-   ```bash
-   python snake_game.py
-   ```
+### How to Play:
 
----
+- Press the **space bar** to make the bird flap and go up.
+- Avoid the **red pipes** and try to pass through the gaps.
+- The game ends when the bird collides with a pipe.
+- Keep playing to get a higher score and enjoy the artistic transformation of the classic Flappy Bird!
 
-## Controls
-- **Arrow Keys**: Control the snake's movement.
-  - `Up Arrow`: Move up
-  - `Down Arrow`: Move down
-  - `Left Arrow`: Move left
-  - `Right Arrow`: Move right
-- **R**: Restart the game after a game over.
-- **Q**: Quit the game after a game over.
+### Summary:
 
----
+If you love Flappy Bird and want to experience a fresh version with an artistic twist, this game is perfect for you. The **negative effect bird** and customizable obstacles will keep you engaged as you try to get a higher score while enjoying the unique design. Don't miss out on this creative version of a classic!
 
-## Game Rules
-1. Guide the snake to eat the red food. Each food increases your score by 1.
-2. The snake grows longer as it eats, making the game progressively harder.
-3. Avoid running into walls or the snake's own body.
-4. If you crash, the game ends, and you can restart or quit.
-
----
-
-## Customization
-You can modify the following variables in the `snake_game.py` file:
-- **Colors**: Change the snake, food, or background colors.
-- **Speed**: Adjust the `clock.tick(10 + score // 5)` line to modify the speed progression.
-- **Grid Size**: Modify `CELL_SIZE`, `WIDTH`, or `HEIGHT` for different layouts.
-
----
-
-## Screenshot
-![Snake Game Screenshot](https://via.placeholder.com/600x400.png?text=Snake+Game)
-*Sample screenshot of the game interface.*
-
----
-
-## License
-This project is open-source and free to use for educational or personal purposes.
-
----
-
-Happy gaming! 🎮

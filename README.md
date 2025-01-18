@@ -1,4 +1,4 @@
-# Flappy Bird Game
+# Colorful Flappy Bird Game
 
 Welcome to the **Flappy Bird Game**! Guide a cheerful bird through gaps in pipes with simple yet engaging gameplay.
 

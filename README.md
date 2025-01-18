@@ -1,4 +1,5 @@
 Balloon Rise Game 🎈
+
 Overview
 Welcome to the Balloon Rise Game! In this game, you control a balloon that continuously rises upwards. The goal is to avoid falling obstacles (hurdles) while guiding the balloon left or right using your keyboard. The game ends when the balloon collides with a hurdle. Keep rising to achieve the highest score!
 

@@ -1,26 +1,36 @@
+# Flappy Bird Game
 
-# Flappy Bird Game with Negative Bird Effect
+Welcome to the **Flappy Bird Game**! Guide a cheerful bird through gaps in pipes with simple yet engaging gameplay.
 
-Welcome to the Flappy Bird game with a unique twist! This game is inspired by the classic Flappy Bird, but with a creative and artistic change to the bird and gameplay experience.
+## Why Play?
+- **Addictive Fun**: Easy to learn, hard to master.
+- **Dynamic Challenge**: Gradual difficulty keeps it exciting.
+- **Relaxing Visuals**: Colorful backgrounds and cheerful design.
+- **Quick Sessions**: Perfect for short breaks.
+- **For Everyone**: Fun for all ages.
 
-### Why Play This Game?
+## How to Play
+1. Run the game script.
+2. Press the spacebar to flap.
+3. Avoid pipes and the ground.
+4. Score points for passing pipes.
 
-1. **Unique Bird Design**: The bird in this version is not just any bird—it's a **realistic, inverted bird** that stands out with its striking negative color effect. The bird's appearance is a new and artistic twist that makes it visually different from the traditional Flappy Bird game, giving a fresh experience to players.
-  
-2. **Challenging Obstacles**: The game features **red obstacles (pipes)** with a larger gap between them, which makes the game more fun and accessible. The challenge lies in navigating the bird through these pipes while avoiding collisions.
+## Features
+- Gradual difficulty increase.
+- Realistic bird physics.
+- Simple, responsive controls.
 
-3. **Classic Flappy Bird Gameplay**: The core of the game is still based on the beloved **flap and fall** mechanic, where you control the bird's movement by pressing the space bar. The goal is to keep the bird flying through the gaps and rack up as many points as you can.
+## Installation
+1. Install Python.
+2. Install `pygame`:
+   ```bash
+   pip install pygame
+   ```
+3. Run the script:
+   ```bash
+   python flappy_bird_game.py
+   ```
 
-4. **Customization**: With this version, you can also experiment with different bird designs, colors, and other modifications, allowing you to create your own personalized Flappy Bird game.
-
-### How to Play:
-
-- Press the **space bar** to make the bird flap and go up.
-- Avoid the **red pipes** and try to pass through the gaps.
-- The game ends when the bird collides with a pipe.
-- Keep playing to get a higher score and enjoy the artistic transformation of the classic Flappy Bird!
-
-### Summary:
-
-If you love Flappy Bird and want to experience a fresh version with an artistic twist, this game is perfect for you. The **negative effect bird** and customizable obstacles will keep you engaged as you try to get a higher score while enjoying the unique design. Don't miss out on this creative version of a classic!
+### Ready to Play?
+Start flapping and see how far you can go!
 
